@@ -1,2 +1,2 @@
 #!/bin/bash
-gunicorn --bind 0.0.0.0:5000 app:app
+gunicorn --bind 0.0.0.0:5000 --chdir /usr/app/.env/lib/python3.10/site-packages/testing_server_cfer app:app
